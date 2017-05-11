@@ -1,5 +1,5 @@
 # Created by Michael Fessenden (MikeFez)
-# Requires Python 2.7
+# Works on Python 2.7 & 3+
 # Must have beautifulsoup4 & requests installed
 
 # -*- coding: utf-8 -*-
@@ -13,7 +13,7 @@ import os
 
 session = requests.session()
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko'}
-subreddit_file = "files/reddit/subreddits.txt"
+subreddit_file = "subreddits.txt"
 
 
 def main():
